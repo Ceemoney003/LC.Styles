@@ -165,8 +165,9 @@ const saveCart = items => {
   if(!btn) return;
   btn.addEventListener("click", ()=>{
     const phone = "+2348122781860"; // <-- your WhatsApp number here
-    const url = `https://wa.me/${phone}?text=Hi, id like to buy these products!`;
+    const url = `https://wa.me/${phone}?text=Hi, I'll like to buy these products!`;
     window.location.href = url;
   });
 })();
+
 
